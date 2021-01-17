@@ -1,0 +1,13 @@
+#include <main.h>
+#include "DS1307.C"
+
+
+void main()
+{
+   ds1307_init();
+   while(TRUE)
+   {
+      //TODO: User Code
+   }
+
+}

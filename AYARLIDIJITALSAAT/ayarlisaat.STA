@@ -1,0 +1,53 @@
+
+ROM used:   423/8192 (5%)
+            423/8192 (5%) including unused fragments
+
+            0.5 Average locations per line
+            4.6 Average locations per statement
+
+RAM used:   11/368 (3%) at main() level
+            21/368 (6%) worst case
+
+Stack used: 0 worst case (0 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  103    92 100  ayarlisaat.c
+   10     0   0  ayarlisaat.h
+  661     0   0  C:\Program Files (x86)\PICC\Devices\16F877A.h
+----- -----
+  774    92 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     20   5    1             @delay_ms1
+0    119  28    5  1055  8.2  main
+0     10   2    0             @goto10599
+0    150  35    2  1475  3.4  tusalgila
+0     99  23    7   772  6.6  goster
+0     21   5    3             @DIV88
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               3
+    Statements              92
+    Comments                125
+    Volume (V)              4100
+    Difficulty (D)          17.9
+    Effort to implement (E) 73597
+    Time to implement (T)   1 hours, 8 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   30
+    Maintainability (MI)    48
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF   419  1625  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

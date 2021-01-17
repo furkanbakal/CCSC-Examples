@@ -1,0 +1,24 @@
+#include <yuruyenled1.h>
+
+void main()
+{
+int8 i, data=1;
+output_c(0);
+
+   while(TRUE)
+   {
+     for(i=1;i<=7;i++)
+     {
+     output_c(data);      // YÜRÜYEN LED > LEDLER ÝLERÝ GÝDÝP GELÝYOR
+     delay_ms(250);
+     data=data<<1;
+   }
+   for(i=1;i<=7;i++)
+   {
+     output_c(data);
+     delay_ms(250);
+     data=data>>1;
+
+}
+   }
+}

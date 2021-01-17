@@ -1,0 +1,19 @@
+[PROJECT]
+Target=D:\CCSC-ORNEKLERÝ\yürüyenled-1\yuruyenled1.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.007
+Compiler=PCM
+[Target Data]
+FileList=yuruyenled1.c
+[Directories]
+Include=
+[D:\CCSC-ORNEKLERÝ\yürüyenled-1\yuruyenled1]
+Type=4
+[mru-list]
+1=yuruyenled1.c
+[Units]
+Count=1
+1=yuruyenled1 (main)
+[Opened Files]
+1=yuruyenled1.c
+2=

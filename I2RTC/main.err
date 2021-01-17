@@ -1,0 +1,11 @@
+*** Error 12 "D:\CCSC-ORNEKLERÝ\I2RTC\ds18b20.c" Line 7(12,24): Undefined identifier   ONE_WIRE_PIN
+*** Error 12 "D:\CCSC-ORNEKLERÝ\I2RTC\ds18b20.c" Line 9(14,26): Undefined identifier   ONE_WIRE_PIN
+*** Error 12 "D:\CCSC-ORNEKLERÝ\I2RTC\ds18b20.c" Line 11(14,26): Undefined identifier   ONE_WIRE_PIN
+*** Error 12 "D:\CCSC-ORNEKLERÝ\I2RTC\ds18b20.c" Line 19(12,24): Undefined identifier   ONE_WIRE_PIN
+*** Error 12 "D:\CCSC-ORNEKLERÝ\I2RTC\ds18b20.c" Line 21(12,24): Undefined identifier   ONE_WIRE_PIN
+*** Error 12 "D:\CCSC-ORNEKLERÝ\I2RTC\ds18b20.c" Line 23(14,26): Undefined identifier   ONE_WIRE_PIN
+*** Error 12 "D:\CCSC-ORNEKLERÝ\I2RTC\ds18b20.c" Line 33(12,24): Undefined identifier   ONE_WIRE_PIN
+*** Error 12 "D:\CCSC-ORNEKLERÝ\I2RTC\ds18b20.c" Line 35(14,26): Undefined identifier   ONE_WIRE_PIN
+*** Error 12 "D:\CCSC-ORNEKLERÝ\I2RTC\ds18b20.c" Line 37(27,39): Undefined identifier   ONE_WIRE_PIN
+      9 Errors,  0 Warnings.
+Build Failed.

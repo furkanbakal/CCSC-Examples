@@ -1,0 +1,6 @@
+*** Error 12 "STEPMOTOR.c" Line 20(23,24): Undefined identifier  -- tusalgila
+*** Error 51 "STEPMOTOR.c" Line 22(6,10): A numeric expression must appear here
+*** Error 51 "STEPMOTOR.c" Line 28(6,10): A numeric expression must appear here
+*** Error 51 "STEPMOTOR.c" Line 33(6,10): A numeric expression must appear here
+*** Error 76 "STEPMOTOR.c" Line 36(6,12): Expect ;
+*** Error 51 "STEPMOTOR.c" Line 38(6,10): A numeric expression must appear here

@@ -1,0 +1,17 @@
+#include <pwmmotor.h>
+#define LCD_ENABLE_PIN PIN_A4
+
+#include <lcd.c>
+
+void main()
+{
+	setup_adc_ports(ALL_ANALOG);
+
+   lcd_init();
+
+	while(TRUE)
+	{
+		//TODO: User Code
+	}
+
+}

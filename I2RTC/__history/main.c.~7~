@@ -1,0 +1,26 @@
+#include <main.h>
+#include "DS1307.C"
+#define LCD_ENABLE_PIN PIN_A4
+#define LCD_RS_PIN PIN_A5
+#define LCD_RW_PIN PIN_C6
+#define LCD_DATA4 PIN_B4
+#define LCD_DATA5 PIN_B5
+#define LCD_DATA6 PIN_B6
+#define LCD_DATA7 PIN_B7
+#include <lcd.c>
+
+void main()
+{  int8 day,mth,year,dow,hr,min,sec;
+   ds1307_init();
+   lcd_init();
+   ds1307_set_date_time(13,8,20,4,10,20,0);
+   
+   while(TRUE)
+   {
+     ds1307_get_date(day,mth,year,dow);
+     ds1307_get_time(hr,min,sec);
+     printf(lcd_putc,"\f   %02u/02%u/20%02u    \n    %02u:%02u:%02u:",day,mth,year,hr,min,sec);
+     delay_ms(500);
+   }
+
+}

@@ -1,0 +1,19 @@
+[PROJECT]
+Target=D:\CCSC-ORNEKLERÝ\MOD10000\MOD10000.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.007
+Compiler=PCM
+[Target Data]
+FileList=MOD10000.c
+[Directories]
+Include=
+[D:\CCSC-ORNEKLERÝ\MOD10000\MOD10000]
+Type=4
+[mru-list]
+1=MOD10000.c
+[Units]
+Count=1
+1=MOD10000 (main)
+[Opened Files]
+1=MOD10000.c
+2=

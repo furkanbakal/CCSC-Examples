@@ -1,0 +1,22 @@
+[PROJECT]
+Target=pwmmotor.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.007
+Compiler=PCM
+CCSVersion=5.007
+[Target Data]
+FileList=pwmmotor.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\;D:\CCSC-ORNEKLERÝ\PWM_MOTOR\
+[D:\CCSC-ORNEKLERÝ\PWM_MOTOR\pwmmotor]
+Type=4
+[mru-list]
+1=pwmmotor.c
+[Opened Files]
+1=pwmmotor.c
+2=
+[pwmmotor.c]
+Type=4
+[Units]
+Count=1
+1=pwmmotor (main)

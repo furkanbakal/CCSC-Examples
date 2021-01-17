@@ -1,0 +1,22 @@
+[PROJECT]
+Target=lcdkullanimi.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.007
+Compiler=PCM
+CCSVersion=5.007
+[Target Data]
+FileList=lcdkullanimi.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\;D:\CCSC-ORNEKLERÝ\LCDKULLANIMI\
+[D:\CCSC-ORNEKLERÝ\LCDKULLANIMI\lcdkullanimi]
+Type=4
+[mru-list]
+1=lcdkullanimi.c
+[Opened Files]
+1=lcdkullanimi.c
+2=
+[lcdkullanimi.c]
+Type=4
+[Units]
+Count=1
+1=lcdkullanimi (main)

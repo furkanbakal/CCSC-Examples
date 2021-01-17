@@ -1,0 +1,27 @@
+[PROJECT]
+Target=main.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.007
+Compiler=PCM
+CCSVersion=5.007
+[Target Data]
+FileList=main.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\;D:\CCSC-ORNEKLERÝ\I2RTC\
+[D:\CCSC-ORNEKLERÝ\I2RTC\main]
+Type=4
+[mru-list]
+1=main.c
+[Opened Files]
+1=main.c
+2=C:\Program Files (x86)\PICC\Devices\16F877A.h
+3=
+4=..\KEYPAD\KEYPAD.c
+5=..\AYARLIDIJITALSAAT\ayarlisaat.c
+6=ds18b20.c
+7=
+[main.c]
+Type=4
+[Units]
+Count=1
+1=main (main)

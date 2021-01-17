@@ -1,0 +1,19 @@
+[PROJECT]
+Target=D:\CCSC-ORNEKLERÝ\KEYPAD\KEYPAD.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.007
+Compiler=PCM
+[Target Data]
+FileList=KEYPAD.c
+[Directories]
+Include=
+[D:\CCSC-ORNEKLERÝ\KEYPAD\KEYPAD]
+Type=4
+[mru-list]
+1=KEYPAD.c
+[Units]
+Count=1
+1=KEYPAD (main)
+[Opened Files]
+1=KEYPAD.c
+2=

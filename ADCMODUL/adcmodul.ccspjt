@@ -1,0 +1,23 @@
+[PROJECT]
+Target=adcmodul.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.007
+Compiler=PCM
+CCSVersion=5.007
+[Target Data]
+FileList=adcmodul.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\;D:\CCSC-ORNEKLERÝ\ADCMODUL\
+[D:\CCSC-ORNEKLERÝ\ADCMODUL\adcmodul]
+Type=4
+[mru-list]
+1=adcmodul.c
+[Opened Files]
+1=adcmodul.c
+2=..\LCDKULLANIMI\lcdkullanimi.c
+3=
+[adcmodul.c]
+Type=4
+[Units]
+Count=1
+1=adcmodul (main)

@@ -1,0 +1,142 @@
+004-005 @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020     @TRIS_C
+021     MAIN.day
+022     MAIN.mth
+023     MAIN.year
+024     MAIN.dow
+025     MAIN.hr
+026     MAIN.min
+027     MAIN.sec
+028     MAIN.i
+029     lcd_init.i
+029     tusalgila.key
+029     ds1307_set_date_time.day
+029     ds1307_init.seconds
+029     @PRINTF_U_676.P1
+029     @PSTRINGCN7_676.P2
+029     ds1307_get_date.@SCRATCH1
+029     ds1307_get_time.@SCRATCH1
+02A     ds1307_set_date_time.mth
+02A     @PRINTF_U_676.P1
+02A     ds1307_init.@SCRATCH1
+02A     lcd_init.@SCRATCH1
+02A     @PSTRINGCN7_676.@SCRATCH1
+02A     tusalgila.@SCRATCH1
+02B     @DIV88.P1
+02B     ds1307_set_date_time.year
+02B     @PSTRINGCN7_676.@SCRATCH2
+02C     ds1307_set_date_time.dow
+02C     @DIV88.P1
+02C     @PSTRINGCN7_676.@SCRATCH3
+02D     ds1307_set_date_time.hr
+02D     @I2C_READ_1.P1
+02D     @PSTRINGCN7_676.@SCRATCH4
+02D     @DIV88.@SCRATCH1
+02E     bcd2bin.bcd_value
+02E     ds1307_set_date_time.min
+02E     lcd_putc.c
+02E     @I2C_READ_1.@SCRATCH1
+02F     @delay_ms1.P1
+02F     ds1307_set_date_time.sec
+02F     bcd2bin.temp
+02F     lcd_gotoxy.x
+02F     @I2C_READ_1.@SCRATCH2
+030     lcd_gotoxy.y
+030     bin2bcd.binary_value
+030     ds1307_set_date_time.@SCRATCH1
+030     bcd2bin.@SCRATCH1
+031     bin2bcd.temp
+031     @I2C_WRITE_1.P1
+031     lcd_gotoxy.address
+032     bin2bcd.retval
+032     lcd_gotoxy.@SCRATCH1
+033     lcd_send_byte.address
+034     lcd_send_byte.n
+035     lcd_read_byte.low
+035     lcd_send_byte.@SCRATCH1
+036     lcd_read_byte.high
+036     lcd_send_nibble.n
+037     lcd_read_nibble.n
+037     lcd_read_byte.@SCRATCH1
+038     lcd_read_nibble.@SCRATCH1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  LCD_INIT_STRING.call
+000008  LCD_INIT_STRING.data
+00000C  @const700.call
+000023  @I2C_WRITE_1
+00007F  @I2C_READ_1
+0000D3  bcd2bin
+0000E6  bin2bcd
+0000F9  ds1307_init
+0001EC  @delay_ms1
+000200  lcd_send_nibble
+000230  lcd_read_nibble
+000261  lcd_send_byte
+00026D  lcd_read_byte
+0002C7  lcd_init
+00030A  ds1307_set_date_time
+000385  lcd_gotoxy
+000397  lcd_putc
+0003C3  @PSTRINGCN7_676
+000417  @DIV88
+00042C  @PRINTF_U_676
+000461  tusalgila
+0004F7  @cinit1
+0004F7  MAIN
+000500  @cinit2
+000514  ds1307_get_date
+0005A4  ds1307_get_time
+000714  @goto10850
+
+Project Directory:
+    D:\CCSC-ORNEKLERÝ\I2RTC\
+
+Project Files:
+    main.c                                                  [13-Aðu-20 18:39  CRC=24432CEB]
+    main.h                                                  [13-Aðu-20 12:04  CRC=CF12E969]
+    C:\Program Files (x86)\PICC\Devices\16F877A.h           [21-Haz-13 16:04  CRC=4E65664C]
+    DS1307.C                                                [13-Aðu-20 17:15  CRC=DAB8C0F2]
+    C:\Program Files (x86)\PICC\Drivers\lcd.c               [23-Aðu-12 09:01  CRC=D28E8746]
+
+Source signature=C1914C1E
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-65535
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA

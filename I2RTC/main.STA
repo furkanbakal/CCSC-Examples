@@ -1,0 +1,73 @@
+
+ROM used:   1826/8192 (22%)
+            1826/8192 (22%) including unused fragments
+
+            1.3 Average locations per line
+            7.2 Average locations per statement
+
+RAM used:   14/368 (4%) at main() level
+            30/368 (8%) worst case
+
+Stack used: 0 worst case (0 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   98    86  34  main.c
+   10     0   0  main.h
+  661     0   0  C:\Program Files (x86)\PICC\Devices\16F877A.h
+  144    67  26  DS1307.C
+  456   100  40  C:\Program Files (x86)\PICC\Drivers\lcd.c
+----- -----
+ 1369   253 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     20   1    1             @delay_ms1
+0     84   5    3    27  1.0  @I2C_READ_1
+0     92   5    1             @I2C_WRITE_1
+0    243  13    2   437  2.4  ds1307_init
+0    123   7    8   503  2.7  ds1307_set_date_time
+ Inline         5   383  3.1  ds1307_get_date
+ Inline         4   315  3.0  ds1307_get_time
+0     19   1    3   240  6.0  bin2bcd
+0     19   1    3   168  3.1  bcd2bin
+0      8   0    0    27  1.0  @const657
+ Inline         3   760  4.5  lcd_read_byte
+0     49   3    2   262  3.7  lcd_read_nibble
+0     48   3    1   399  2.4  lcd_send_nibble
+0    102   6    3   415  3.7  lcd_send_byte
+0     67   4    2   704  5.0  lcd_init
+0     18   1    4   208  6.3  lcd_gotoxy
+0     44   2    1   354  4.7  lcd_putc
+0    541  30    8  2263  7.8  MAIN
+0     23   1    0             @const700
+0     84   5    5             @PSTRINGCN7_676
+0     21   1    3             @DIV88
+0     53   3    2             @PRINTF_U_676
+0     14   1    0   461  2.3  @goto10850
+0    150   8    2  1475  3.4  tusalgila
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               18
+    Statements              253
+    Comments                274
+    Volume (V)              15353
+    Difficulty (D)          67.4
+    Effort to implement (E) 1034350
+    Time to implement (T)   15 hours, 58 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   37
+    Maintainability (MI)    81
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF  1822  222  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+
